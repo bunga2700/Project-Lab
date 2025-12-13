@@ -211,12 +211,6 @@ begin
         textcolor(green); writeln(' Terima kasih telah menggunakan Campus Schedule!'); textcolor(white);
         readln;
       end;
-      else
-      begin
-        textcolor(red); writeln(' Pilihan tidak valid! Tekan Enter untuk kembali.'); textcolor(white);
-        readln;
-      end;
-    end;
-
+      
   until pilihan = 5; // Keluar jika pilih 5
 end. 
